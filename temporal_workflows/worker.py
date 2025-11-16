@@ -1,38 +1,21 @@
-﻿import asyncio
+﻿# temporal_workflows/worker.py
+import asyncio
 from temporalio.client import Client
 from temporalio.worker import Worker
+from temporal_workflows.workflows import CircuitGenerationWorkflow
+import os
 
-from workflows import CircuitGenerationWorkflow
-from activities import (
-    extract_intent_activity,
-    generate_dsl_activity,
-    validate_circuit_activity,
-    generate_skidl_activity,
-    create_schematic_activity,
-    run_simulation_activity,
-)
+TASK_QUEUE = "autocda-task-queue"
 
 async def main():
-    client = await Client.connect("localhost:7233")
-
-    worker = Worker(
-        client,
-        task_queue="autocda-task-queue",
-        workflows=[CircuitGenerationWorkflow],
-        activities=[
-            extract_intent_activity,
-            generate_dsl_activity,
-            validate_circuit_activity,
-            generate_skidl_activity,
-            create_schematic_activity,
-            run_simulation_activity,
-        ],
-    )
+    # Try localhost, but when tools run in Docker use host.docker.internal
+    address = os.getenv("TEMPORAL_HOST", "localhost:7233")
+    # if user uses Docker Compose, Temporal is exposed at localhost:7233
+    client = await Client.connect(address)
+    worker = Worker(client, task_queue=TASK_QUEUE, workflows=[CircuitGenerationWorkflow], activities=[])
 
     print("🚀 AutoCDA Temporal Worker started!")
-    print("📋 Task Queue: autocda-task-queue")
-    print("🔄 Listening for workflows...")
-
+    print("📋 Task Queue:", TASK_QUEUE)
     await worker.run()
 
 if __name__ == "__main__":
