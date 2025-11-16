@@ -1,0 +1,62 @@
+﻿version: '3.8'
+
+services:
+  autocda-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+      - ./output:/app/output
+    environment:
+      - DATABASE_URL=postgresql://autocda:autocda@db:5432/autocda
+      - TEMPORAL_HOST=temporal:7233
+    depends_on:
+      - db
+      - temporal
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=autocda
+      - POSTGRES_PASSWORD=autocda
+      - POSTGRES_DB=autocda
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  temporal-db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=temporal
+      - POSTGRES_PASSWORD=temporal
+    volumes:
+      - temporal_data:/var/lib/postgresql/data
+
+  temporal:
+    image: temporalio/auto-setup:latest
+    environment:
+      - DB=postgres12
+      - DB_PORT=5432
+      - POSTGRES_USER=temporal
+      - POSTGRES_PWD=temporal
+      - POSTGRES_SEEDS=temporal-db
+    ports:
+      - "7233:7233"
+    depends_on:
+      - temporal-db
+
+
+  temporal-ui:
+    image: temporalio/ui:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - TEMPORAL_ADDRESS=temporal:7233
+    depends_on:
+      - temporal
+
+volumes:
+  postgres_data:
+  temporal_data:
