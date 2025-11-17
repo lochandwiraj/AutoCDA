@@ -1,0 +1,1654 @@
+{
+  "components": [
+    {
+      "id": "R_1_0_0805",
+      "type": "resistor",
+      "value": "1.0\u03a9",
+      "value_numeric": 1.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1_2_0805",
+      "type": "resistor",
+      "value": "1.2\u03a9",
+      "value_numeric": 1.2,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1_5_0805",
+      "type": "resistor",
+      "value": "1.5\u03a9",
+      "value_numeric": 1.5,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1_8_0805",
+      "type": "resistor",
+      "value": "1.8\u03a9",
+      "value_numeric": 1.8,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_2_2_0805",
+      "type": "resistor",
+      "value": "2.2\u03a9",
+      "value_numeric": 2.2,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_2_7_0805",
+      "type": "resistor",
+      "value": "2.7\u03a9",
+      "value_numeric": 2.7,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_3_3_0805",
+      "type": "resistor",
+      "value": "3.3\u03a9",
+      "value_numeric": 3.3,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_3_9_0805",
+      "type": "resistor",
+      "value": "3.9\u03a9",
+      "value_numeric": 3.9,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_4_7_0805",
+      "type": "resistor",
+      "value": "4.7\u03a9",
+      "value_numeric": 4.7,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_5_6_0805",
+      "type": "resistor",
+      "value": "5.6\u03a9",
+      "value_numeric": 5.6,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_6_8_0805",
+      "type": "resistor",
+      "value": "6.8\u03a9",
+      "value_numeric": 6.8,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_8_2_0805",
+      "type": "resistor",
+      "value": "8.2\u03a9",
+      "value_numeric": 8.2,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_10_0_0805",
+      "type": "resistor",
+      "value": "10.0\u03a9",
+      "value_numeric": 10.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_12_0_0805",
+      "type": "resistor",
+      "value": "12.0\u03a9",
+      "value_numeric": 12.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_15_0_0805",
+      "type": "resistor",
+      "value": "15.0\u03a9",
+      "value_numeric": 15.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_18_0_0805",
+      "type": "resistor",
+      "value": "18.0\u03a9",
+      "value_numeric": 18.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_22_0_0805",
+      "type": "resistor",
+      "value": "22.0\u03a9",
+      "value_numeric": 22.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_27_0_0805",
+      "type": "resistor",
+      "value": "27.0\u03a9",
+      "value_numeric": 27.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_33_0_0805",
+      "type": "resistor",
+      "value": "33.0\u03a9",
+      "value_numeric": 33.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_39_0_0805",
+      "type": "resistor",
+      "value": "39.0\u03a9",
+      "value_numeric": 39.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_47_0_0805",
+      "type": "resistor",
+      "value": "47.0\u03a9",
+      "value_numeric": 47.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_56_0_0805",
+      "type": "resistor",
+      "value": "56.0\u03a9",
+      "value_numeric": 56.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_68_0_0805",
+      "type": "resistor",
+      "value": "68.0\u03a9",
+      "value_numeric": 68.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_82_0_0805",
+      "type": "resistor",
+      "value": "82.0\u03a9",
+      "value_numeric": 82.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_100_0_0805",
+      "type": "resistor",
+      "value": "100.0\u03a9",
+      "value_numeric": 100.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_120_0_0805",
+      "type": "resistor",
+      "value": "120.0\u03a9",
+      "value_numeric": 120.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_150_0_0805",
+      "type": "resistor",
+      "value": "150.0\u03a9",
+      "value_numeric": 150.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_180_0_0805",
+      "type": "resistor",
+      "value": "180.0\u03a9",
+      "value_numeric": 180.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_220_00000000000003_0805",
+      "type": "resistor",
+      "value": "220.00000000000003\u03a9",
+      "value_numeric": 220.00000000000003,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_270_0_0805",
+      "type": "resistor",
+      "value": "270.0\u03a9",
+      "value_numeric": 270.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_330_0_0805",
+      "type": "resistor",
+      "value": "330.0\u03a9",
+      "value_numeric": 330.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_390_0_0805",
+      "type": "resistor",
+      "value": "390.0\u03a9",
+      "value_numeric": 390.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_470_0_0805",
+      "type": "resistor",
+      "value": "470.0\u03a9",
+      "value_numeric": 470.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_560_0_0805",
+      "type": "resistor",
+      "value": "560.0\u03a9",
+      "value_numeric": 560.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_680_0_0805",
+      "type": "resistor",
+      "value": "680.0\u03a9",
+      "value_numeric": 680.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_819_9999999999999_0805",
+      "type": "resistor",
+      "value": "819.9999999999999\u03a9",
+      "value_numeric": 819.9999999999999,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1000_0_0805",
+      "type": "resistor",
+      "value": "1000.0\u03a9",
+      "value_numeric": 1000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1200_0_0805",
+      "type": "resistor",
+      "value": "1200.0\u03a9",
+      "value_numeric": 1200.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1500_0_0805",
+      "type": "resistor",
+      "value": "1500.0\u03a9",
+      "value_numeric": 1500.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1800_0_0805",
+      "type": "resistor",
+      "value": "1800.0\u03a9",
+      "value_numeric": 1800.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_2200_0_0805",
+      "type": "resistor",
+      "value": "2200.0\u03a9",
+      "value_numeric": 2200.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_2700_0_0805",
+      "type": "resistor",
+      "value": "2700.0\u03a9",
+      "value_numeric": 2700.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_3300_0_0805",
+      "type": "resistor",
+      "value": "3300.0\u03a9",
+      "value_numeric": 3300.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_3900_0_0805",
+      "type": "resistor",
+      "value": "3900.0\u03a9",
+      "value_numeric": 3900.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_4700_0_0805",
+      "type": "resistor",
+      "value": "4700.0\u03a9",
+      "value_numeric": 4700.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_5600_0_0805",
+      "type": "resistor",
+      "value": "5600.0\u03a9",
+      "value_numeric": 5600.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_6800_0_0805",
+      "type": "resistor",
+      "value": "6800.0\u03a9",
+      "value_numeric": 6800.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_8200_0_0805",
+      "type": "resistor",
+      "value": "8200.0\u03a9",
+      "value_numeric": 8200.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_10000_0_0805",
+      "type": "resistor",
+      "value": "10000.0\u03a9",
+      "value_numeric": 10000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_12000_0_0805",
+      "type": "resistor",
+      "value": "12000.0\u03a9",
+      "value_numeric": 12000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_15000_0_0805",
+      "type": "resistor",
+      "value": "15000.0\u03a9",
+      "value_numeric": 15000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_18000_0_0805",
+      "type": "resistor",
+      "value": "18000.0\u03a9",
+      "value_numeric": 18000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_22000_0_0805",
+      "type": "resistor",
+      "value": "22000.0\u03a9",
+      "value_numeric": 22000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_27000_0_0805",
+      "type": "resistor",
+      "value": "27000.0\u03a9",
+      "value_numeric": 27000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_33000_0_0805",
+      "type": "resistor",
+      "value": "33000.0\u03a9",
+      "value_numeric": 33000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_39000_0_0805",
+      "type": "resistor",
+      "value": "39000.0\u03a9",
+      "value_numeric": 39000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_47000_0_0805",
+      "type": "resistor",
+      "value": "47000.0\u03a9",
+      "value_numeric": 47000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_56000_0_0805",
+      "type": "resistor",
+      "value": "56000.0\u03a9",
+      "value_numeric": 56000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_68000_0_0805",
+      "type": "resistor",
+      "value": "68000.0\u03a9",
+      "value_numeric": 68000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_82000_0_0805",
+      "type": "resistor",
+      "value": "82000.0\u03a9",
+      "value_numeric": 82000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_100000_0_0805",
+      "type": "resistor",
+      "value": "100000.0\u03a9",
+      "value_numeric": 100000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_120000_0_0805",
+      "type": "resistor",
+      "value": "120000.0\u03a9",
+      "value_numeric": 120000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_150000_0_0805",
+      "type": "resistor",
+      "value": "150000.0\u03a9",
+      "value_numeric": 150000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_180000_0_0805",
+      "type": "resistor",
+      "value": "180000.0\u03a9",
+      "value_numeric": 180000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_220000_00000000003_0805",
+      "type": "resistor",
+      "value": "220000.00000000003\u03a9",
+      "value_numeric": 220000.00000000003,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_270000_0_0805",
+      "type": "resistor",
+      "value": "270000.0\u03a9",
+      "value_numeric": 270000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_330000_0_0805",
+      "type": "resistor",
+      "value": "330000.0\u03a9",
+      "value_numeric": 330000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_390000_0_0805",
+      "type": "resistor",
+      "value": "390000.0\u03a9",
+      "value_numeric": 390000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_470000_0_0805",
+      "type": "resistor",
+      "value": "470000.0\u03a9",
+      "value_numeric": 470000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_560000_0_0805",
+      "type": "resistor",
+      "value": "560000.0\u03a9",
+      "value_numeric": 560000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_680000_0_0805",
+      "type": "resistor",
+      "value": "680000.0\u03a9",
+      "value_numeric": 680000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_819999_9999999999_0805",
+      "type": "resistor",
+      "value": "819999.9999999999\u03a9",
+      "value_numeric": 819999.9999999999,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1000000_0_0805",
+      "type": "resistor",
+      "value": "1000000.0\u03a9",
+      "value_numeric": 1000000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1200000_0_0805",
+      "type": "resistor",
+      "value": "1200000.0\u03a9",
+      "value_numeric": 1200000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1500000_0_0805",
+      "type": "resistor",
+      "value": "1500000.0\u03a9",
+      "value_numeric": 1500000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_1800000_0_0805",
+      "type": "resistor",
+      "value": "1800000.0\u03a9",
+      "value_numeric": 1800000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_2200000_0_0805",
+      "type": "resistor",
+      "value": "2200000.0\u03a9",
+      "value_numeric": 2200000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_2700000_0_0805",
+      "type": "resistor",
+      "value": "2700000.0\u03a9",
+      "value_numeric": 2700000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_3300000_0_0805",
+      "type": "resistor",
+      "value": "3300000.0\u03a9",
+      "value_numeric": 3300000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_3900000_0_0805",
+      "type": "resistor",
+      "value": "3900000.0\u03a9",
+      "value_numeric": 3900000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_4700000_0_0805",
+      "type": "resistor",
+      "value": "4700000.0\u03a9",
+      "value_numeric": 4700000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_5600000_0_0805",
+      "type": "resistor",
+      "value": "5600000.0\u03a9",
+      "value_numeric": 5600000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_6800000_0_0805",
+      "type": "resistor",
+      "value": "6800000.0\u03a9",
+      "value_numeric": 6800000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_8199999_999999999_0805",
+      "type": "resistor",
+      "value": "8199999.999999999\u03a9",
+      "value_numeric": 8199999.999999999,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "R_10000000_0_0805",
+      "type": "resistor",
+      "value": "10000000.0\u03a9",
+      "value_numeric": 10000000.0,
+      "unit": "ohm",
+      "tolerance": "5%",
+      "footprint": "R_0805",
+      "properties": {
+        "power": "0.125W"
+      }
+    },
+    {
+      "id": "C_1_pF_0603",
+      "type": "capacitor",
+      "value": "1pF",
+      "value_numeric": 1e-12,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_5_pF_0603",
+      "type": "capacitor",
+      "value": "1.5pF",
+      "value_numeric": 1.5e-12,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_2_2_pF_0603",
+      "type": "capacitor",
+      "value": "2.2pF",
+      "value_numeric": 2.2000000000000003e-12,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_3_3_pF_0603",
+      "type": "capacitor",
+      "value": "3.3pF",
+      "value_numeric": 3.2999999999999997e-12,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_4_7_pF_0603",
+      "type": "capacitor",
+      "value": "4.7pF",
+      "value_numeric": 4.7e-12,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_6_8_pF_0603",
+      "type": "capacitor",
+      "value": "6.8pF",
+      "value_numeric": 6.799999999999999e-12,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_pF_0603",
+      "type": "capacitor",
+      "value": "1pF",
+      "value_numeric": 1e-11,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_5_pF_0603",
+      "type": "capacitor",
+      "value": "1.5pF",
+      "value_numeric": 1.5e-11,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_2_2_pF_0603",
+      "type": "capacitor",
+      "value": "2.2pF",
+      "value_numeric": 2.2e-11,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_3_3_pF_0603",
+      "type": "capacitor",
+      "value": "3.3pF",
+      "value_numeric": 3.2999999999999996e-11,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_4_7_pF_0603",
+      "type": "capacitor",
+      "value": "4.7pF",
+      "value_numeric": 4.7e-11,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_6_8_pF_0603",
+      "type": "capacitor",
+      "value": "6.8pF",
+      "value_numeric": 6.8e-11,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_pF_0603",
+      "type": "capacitor",
+      "value": "1pF",
+      "value_numeric": 1e-10,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_5_pF_0603",
+      "type": "capacitor",
+      "value": "1.5pF",
+      "value_numeric": 1.5e-10,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_2_2_pF_0603",
+      "type": "capacitor",
+      "value": "2.2pF",
+      "value_numeric": 2.2000000000000002e-10,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_3_3_pF_0603",
+      "type": "capacitor",
+      "value": "3.3pF",
+      "value_numeric": 3.3e-10,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_4_7_pF_0603",
+      "type": "capacitor",
+      "value": "4.7pF",
+      "value_numeric": 4.7e-10,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_6_8_pF_0603",
+      "type": "capacitor",
+      "value": "6.8pF",
+      "value_numeric": 6.8e-10,
+      "unit": "pF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_nF_0603",
+      "type": "capacitor",
+      "value": "1nF",
+      "value_numeric": 1e-09,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_5_nF_0603",
+      "type": "capacitor",
+      "value": "1.5nF",
+      "value_numeric": 1.5000000000000002e-09,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_2_2_nF_0603",
+      "type": "capacitor",
+      "value": "2.2nF",
+      "value_numeric": 2.2000000000000003e-09,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_3_3_nF_0603",
+      "type": "capacitor",
+      "value": "3.3nF",
+      "value_numeric": 3.3e-09,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_4_7_nF_0603",
+      "type": "capacitor",
+      "value": "4.7nF",
+      "value_numeric": 4.700000000000001e-09,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_6_8_nF_0603",
+      "type": "capacitor",
+      "value": "6.8nF",
+      "value_numeric": 6.8000000000000005e-09,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_nF_0603",
+      "type": "capacitor",
+      "value": "1nF",
+      "value_numeric": 1e-08,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_5_nF_0603",
+      "type": "capacitor",
+      "value": "1.5nF",
+      "value_numeric": 1.5000000000000002e-08,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_2_2_nF_0603",
+      "type": "capacitor",
+      "value": "2.2nF",
+      "value_numeric": 2.2000000000000002e-08,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_3_3_nF_0603",
+      "type": "capacitor",
+      "value": "3.3nF",
+      "value_numeric": 3.3e-08,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_4_7_nF_0603",
+      "type": "capacitor",
+      "value": "4.7nF",
+      "value_numeric": 4.7000000000000004e-08,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_6_8_nF_0603",
+      "type": "capacitor",
+      "value": "6.8nF",
+      "value_numeric": 6.8e-08,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_nF_0603",
+      "type": "capacitor",
+      "value": "1nF",
+      "value_numeric": 1e-07,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_5_nF_0603",
+      "type": "capacitor",
+      "value": "1.5nF",
+      "value_numeric": 1.5e-07,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_2_2_nF_0603",
+      "type": "capacitor",
+      "value": "2.2nF",
+      "value_numeric": 2.2e-07,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_3_3_nF_0603",
+      "type": "capacitor",
+      "value": "3.3nF",
+      "value_numeric": 3.2999999999999996e-07,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_4_7_nF_0603",
+      "type": "capacitor",
+      "value": "4.7nF",
+      "value_numeric": 4.7e-07,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_6_8_nF_0603",
+      "type": "capacitor",
+      "value": "6.8nF",
+      "value_numeric": 6.8e-07,
+      "unit": "nF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_uF_0603",
+      "type": "capacitor",
+      "value": "1uF",
+      "value_numeric": 1e-06,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_5_uF_0603",
+      "type": "capacitor",
+      "value": "1.5uF",
+      "value_numeric": 1.5e-06,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_2_2_uF_0603",
+      "type": "capacitor",
+      "value": "2.2uF",
+      "value_numeric": 2.2e-06,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_3_3_uF_0603",
+      "type": "capacitor",
+      "value": "3.3uF",
+      "value_numeric": 3.2999999999999997e-06,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_4_7_uF_0603",
+      "type": "capacitor",
+      "value": "4.7uF",
+      "value_numeric": 4.7e-06,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_6_8_uF_0603",
+      "type": "capacitor",
+      "value": "6.8uF",
+      "value_numeric": 6.799999999999999e-06,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_uF_0603",
+      "type": "capacitor",
+      "value": "1uF",
+      "value_numeric": 1e-05,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_5_uF_0603",
+      "type": "capacitor",
+      "value": "1.5uF",
+      "value_numeric": 1.5000000000000002e-05,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_2_2_uF_0603",
+      "type": "capacitor",
+      "value": "2.2uF",
+      "value_numeric": 2.2000000000000003e-05,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_3_3_uF_0603",
+      "type": "capacitor",
+      "value": "3.3uF",
+      "value_numeric": 3.3e-05,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_4_7_uF_0603",
+      "type": "capacitor",
+      "value": "4.7uF",
+      "value_numeric": 4.7000000000000004e-05,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_6_8_uF_0603",
+      "type": "capacitor",
+      "value": "6.8uF",
+      "value_numeric": 6.8e-05,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_uF_0603",
+      "type": "capacitor",
+      "value": "1uF",
+      "value_numeric": 0.0001,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_1_5_uF_0603",
+      "type": "capacitor",
+      "value": "1.5uF",
+      "value_numeric": 0.00015000000000000001,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_2_2_uF_0603",
+      "type": "capacitor",
+      "value": "2.2uF",
+      "value_numeric": 0.00022000000000000003,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_3_3_uF_0603",
+      "type": "capacitor",
+      "value": "3.3uF",
+      "value_numeric": 0.00033,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_4_7_uF_0603",
+      "type": "capacitor",
+      "value": "4.7uF",
+      "value_numeric": 0.00047000000000000004,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "C_6_8_uF_0603",
+      "type": "capacitor",
+      "value": "6.8uF",
+      "value_numeric": 0.00068,
+      "unit": "uF",
+      "tolerance": "10%",
+      "footprint": "C_0603",
+      "properties": {}
+    },
+    {
+      "id": "IC_LM741",
+      "type": "ic",
+      "value": "LM741",
+      "value_numeric": null,
+      "unit": "",
+      "tolerance": "",
+      "footprint": "DIP8",
+      "properties": {}
+    },
+    {
+      "id": "IC_NE555",
+      "type": "ic",
+      "value": "NE555",
+      "value_numeric": null,
+      "unit": "",
+      "tolerance": "",
+      "footprint": "DIP8",
+      "properties": {}
+    },
+    {
+      "id": "IC_LM317",
+      "type": "ic",
+      "value": "LM317",
+      "value_numeric": null,
+      "unit": "",
+      "tolerance": "",
+      "footprint": "TO220",
+      "properties": {}
+    },
+    {
+      "id": "IC_7805",
+      "type": "ic",
+      "value": "7805",
+      "value_numeric": null,
+      "unit": "",
+      "tolerance": "",
+      "footprint": "TO220",
+      "properties": {}
+    },
+    {
+      "id": "D_1N4148",
+      "type": "diode",
+      "value": "1N4148",
+      "value_numeric": null,
+      "unit": "",
+      "tolerance": "",
+      "footprint": "SOD123",
+      "properties": {}
+    },
+    {
+      "id": "D_1N4007",
+      "type": "diode",
+      "value": "1N4007",
+      "value_numeric": null,
+      "unit": "",
+      "tolerance": "",
+      "footprint": "SOD123",
+      "properties": {}
+    },
+    {
+      "id": "Q_2N2222",
+      "type": "transistor",
+      "value": "2N2222",
+      "value_numeric": null,
+      "unit": "",
+      "tolerance": "",
+      "footprint": "TO92",
+      "properties": {}
+    },
+    {
+      "id": "Q_2N3904",
+      "type": "transistor",
+      "value": "2N3904",
+      "value_numeric": null,
+      "unit": "",
+      "tolerance": "",
+      "footprint": "TO92",
+      "properties": {}
+    },
+    {
+      "id": "Q_BC547",
+      "type": "transistor",
+      "value": "BC547",
+      "value_numeric": null,
+      "unit": "",
+      "tolerance": "",
+      "footprint": "TO92",
+      "properties": {}
+    }
+  ]
+}
