@@ -1,0 +1,113 @@
+﻿from mappers.passive_components import PassiveMapper
+from mappers.active_components import ActiveMapper
+from execution.executor import SKiDLExecutor
+from processing.netlist_processor import NetlistProcessor
+
+class SKiDLPipeline:
+
+    def __init__(self):
+        self.passive_mapper = PassiveMapper()
+        self.active_mapper = ActiveMapper()
+        self.executor = SKiDLExecutor()
+        self.processor = NetlistProcessor()
+
+    def sanitize(self, name: str) -> str:
+        """Ensure names are valid Python + SKiDL identifiers."""
+        if not name:
+            return ""
+        invalid = "'\":,() {}[]"
+        for ch in invalid:
+            name = name.replace(ch, "_")
+        return name
+
+    def generate_from_dsl(self, dsl):
+        """Full pipeline: DSL → SKiDL code → execution → parsing."""
+        skidl_code = self._dsl_to_skidl(dsl)
+
+        success, netlist, errors = self.executor.execute(skidl_code)
+
+        if not success:
+            return {
+                "success": False,
+                "error": errors,
+                "skidl_code": skidl_code
+            }
+
+        parsed = self.processor.parse_netlist(netlist)
+        validation = self.processor.validate_netlist(parsed)
+
+        return {
+            "success": True,
+            "skidl_code": skidl_code,
+            "netlist": netlist,
+            "parsed": parsed,
+            "validation": validation
+        }
+
+    def _dsl_to_skidl(self, dsl):
+        """Convert DSL into SKiDL code."""
+
+        sanitize = self.sanitize
+        code = [
+            "from skidl import Part, Net, generate_netlist, set_default_tool",
+            "set_default_tool('kicad6')",
+            "",
+        ]
+
+        # COMPONENTS
+        for comp in dsl.get("components", []):
+            ctype = comp.get("type")
+            ref = sanitize(comp.get("id"))
+            value = sanitize(comp.get("value", ""))
+
+            lib = "Device"
+            part = None
+
+            if ctype == "resistor":
+                part = "R"
+
+            elif ctype == "capacitor":
+                part = "C"
+
+            elif ctype == "diode":
+                lib = "Device"
+                part = "D"
+                value = sanitize(comp.get("part_number", value))
+
+            elif ctype == "opamp":
+                lib = "Amplifier_Operational"
+                part = sanitize(comp.get("model", "LM741"))
+
+            if part is None:
+                continue
+
+            code.append(f"{ref.lower()} = Part('{lib}', '{part}', ref='{ref}', value='{value}')")
+
+            code.append(f"{ref.lower()} = Part('{lib}', '{part}', ref='{ref}', value='{value}')")
+
+        code.append("")
+
+        # NETS
+        nets = set()
+        for comp in dsl.get("components", []):
+            for n in comp.get("nets", []):
+                nets.add(n)
+
+        for n in nets:
+            safe = sanitize(n)
+            code.append(f"{safe.lower()} = Net('{safe}')")
+
+        code.append("")
+
+        # WIRING
+        for comp in dsl.get("components", []):
+            cid = sanitize(comp["id"]).lower()
+            for i, net in enumerate(comp.get("nets", []), start=1):
+                safe = sanitize(net)
+                code.append(f"{cid}[{i}] += {safe.lower()}")
+
+        code.append("")
+        code.append("generate_netlist()")
+
+        return "\n".join(code)
+
