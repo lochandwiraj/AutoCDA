@@ -1,0 +1,29 @@
+﻿reviews:
+  auto_review:
+    enabled: true
+    drafts: false
+
+  request_changes_workflow: true
+
+  path_filters:
+    - "!**/test_*.py"
+    - "!docs/**"
+
+  tools:
+    shellcheck:
+      enabled: true
+    yamllint:
+      enabled: true
+    ruff:
+      enabled: true
+
+  check_for:
+    - security_vulnerabilities
+    - performance_issues
+    - code_smells
+    - best_practices
+
+language_specific:
+  python:
+    version: "3.11"
+    style_guide: "pep8"
