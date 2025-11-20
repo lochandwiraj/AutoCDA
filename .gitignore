@@ -1,11 +1,54 @@
-﻿__pycache__/
+# Python
+__pycache__/
 *.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
 .venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
 .env
-.DS_Store
+.env.local
+
+# Database
 *.db
 *.sqlite
+
+# Alembic cache
 alembic/versions/*.pyc
+
+# Testing
 .pytest_cache/
 .coverage
 htmlcov/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Outputs
+output/
+*.kicad_sch
+*.kicad_pcb
+*.net
+*.cir
+*.log
+
+# Temporal
+temporal-data/
+
+# Docker / services
+*.pid
+

@@ -1,0 +1,3 @@
+[submodule "AutoCDA-backend"]
+	path = AutoCDA-backend
+	url = https://github.com/lochandwiraj/AutoCDA-backend.git
