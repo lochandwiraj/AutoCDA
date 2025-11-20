@@ -1,0 +1,28 @@
+    def _parse_wrdata(self, content: str) -> Dict:
+        import math
+        frequencies = []
+        magnitudes = []
+        phases = []
+
+        for line in content.splitlines():
+            parts = line.split()
+            if len(parts) >= 3:
+                try:
+                    freq = float(parts[0])
+                    real = float(parts[1])
+                    imag = float(parts[2])
+
+                    mag = math.sqrt(real*real + imag*imag)
+                    phase = math.atan2(imag, real)
+
+                    frequencies.append(freq)
+                    magnitudes.append(mag)
+                    phases.append(phase)
+                except:
+                    pass
+
+        return {
+            "frequencies": frequencies,
+            "magnitudes": magnitudes,
+            "phases": phases
+        }
