@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/api.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/generate",
+      "dest": "backend/api.py"
+    },
+    {
+      "src": "/download/(.*)",
+      "dest": "backend/api.py"
+    },
+    {
+      "src": "/health",
+      "dest": "backend/api.py"
+    }
+  ],
+  "env": {
+    "OPENROUTER_API_KEY": "@openrouter_api_key"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "pitch_structure": {
+    "hook": {
+      "duration_seconds": 15,
+      "content": "Imagine you're a hardware engineer starting a new project. You need a low-pass filter. You spend an hour in KiCad placing components, calculating values, checking connections. What if you could just say 'design a 1kHz low-pass filter' and get a working schematic instantly?"
+    },
+    "solution": {
+      "duration_seconds": 30,
+      "content": "That's AutoCDA. It converts natural language into working electronic schematics. You describe your circuit in plain English, and it generates a complete KiCad schematic with properly calculated component values."
+    },
+    "demo": {
+      "duration_seconds": 120,
+      "examples": [
+        {
+          "name": "Voltage Divider",
+          "time": 30,
+          "input": "Design a voltage divider that converts 9V to 5V"
+        },
+        {
+          "name": "RC Filter",
+          "time": 45,
+          "input": "Low-pass RC filter with 1kHz cutoff"
+        },
+        {
+          "name": "Live Custom",
+          "time": 30,
+          "input": "[Audience suggestion]"
+        }
+      ]
+    },
+    "differentiation": {
+      "duration_seconds": 45,
+      "content": "What makes AutoCDA different? First, only system going from natural language directly to production schematics. Second, explainability showing formulas and reasoning. Third, built on open-source tools making it accessible to everyone."
+    },
+    "vision": {
+      "duration_seconds": 30,
+      "content": "Our roadmap includes PCB layout automation, component sourcing, and multi-stage synthesis. The vision is making hardware design as accessible as software development."
+    },
+    "close": {
+      "duration_seconds": 15,
+      "content": "Live demo at [URL], source code on GitHub. Thank you!"
+    }
+  },
+  "demo_scenarios": {
+    "total_duration_seconds": 105,
+    "scenarios": [
+      {
+        "name": "Simple Voltage Divider",
+        "input": "Design a voltage divider that converts 9V to 5V",
+        "duration": 30,
+        "points": [
+          "This is the simplest use case",
+          "Watch how it calculates the resistor ratio",
+          "Notice the explanation shows the formula"
+        ]
+      },
+      {
+        "name": "RC Low-Pass Filter",
+        "input": "Design a low-pass RC filter with cutoff frequency of 1kHz",
+        "duration": 45,
+        "points": [
+          "Now a more complex circuit",
+          "System calculates R and C values using fc = 1/(2\u03c0RC)",
+          "Values are rounded to standard E12 series",
+          "Schematic is simulation-ready in KiCad"
+        ]
+      },
+      {
+        "name": "RC High-Pass Filter",
+        "input": "Create a high-pass RC filter with 500Hz cutoff",
+        "duration": 30,
+        "points": [
+          "Similar circuit, different configuration",
+          "Notice how component placement differs",
+          "Explanation clarifies high-pass vs low-pass"
+        ]
+      }
+    ]
+  },
+  "transitions": {
+    "start": "Let me show you how this works with three examples",
+    "between_demos": [
+      "Now let's try something more complex",
+      "Here's another example",
+      "One more to show the flexibility"
+    ],
+    "to_custom": "Give me any circuit description and I'll generate it live",
+    "end": "As you can see, from description to schematic in seconds"
+  },
+  "backup_responses": {
+    "api_slow": "While that's processing, let me show you a pre-generated example",
+    "api_fail": "Let me switch to the video backup which shows the same flow",
+    "internet_down": "I have a local version running, let me demonstrate with that",
+    "total_failure": "Let me walk you through with these screenshots of successful generations"
+  }
+}

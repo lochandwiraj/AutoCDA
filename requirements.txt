@@ -1,0 +1,15 @@
+skidl==2.2.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+requests==2.32.5
+streamlit==1.51.0
+altair<6
+gitpython
+tenacity
+toml
+pydeck
+flask==3.1.2
+flask-cors==6.0.1
+pandas==2.3.3
+pytest==8.3.4
+gunicorn==21.2.0

@@ -1,0 +1,15 @@
+*.md
+.git
+.gitignore
+__pycache__
+*.pyc
+.env
+.vscode
+tests/
+docs/
+demo_files/
+output/
+output_api/
+output_test/
+logs/
+*.log

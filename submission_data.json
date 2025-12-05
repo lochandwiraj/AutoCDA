@@ -1,0 +1,23 @@
+{
+  "description": "AutoCDA (Automatic Circuit Design Assistant) revolutionizes electronic circuit design by converting natural language descriptions into production-ready KiCad schematics.\n\nTraditional circuit design requires hours of manual component placement, value calculation, and schematic drawing in EDA tools. AutoCDA eliminates this overhead through an intelligent pipeline: users describe their circuit in plain English, our NLP system extracts design intent, generates a validated intermediate representation (DSL), and automatically produces SKiDL code that exports to KiCad.\n\nKey innovations:\n- End-to-end automation from natural language to schematic (no manual EDA work)\n- Explainable AI that shows formulas and reasoning for component value selection\n- Standards-compliant output (E12/E24 resistor series, industry-standard capacitor values)\n- Validation engine preventing common electrical errors\n- Open-source EDA integration (SKiDL + KiCad)\n\nCurrently supports 5 circuit types including RC filters, voltage dividers, and current limiters. Generation time under 5 seconds.\n\nAutoCDA democratizes hardware design for students, hobbyists, and rapid prototyping while saving professional engineers hours per design. Built with Python, OpenRouter API, SKiDL, and KiCad CLI tools.",
+  "word_count": 165,
+  "tech_stack": [
+    "skidl",
+    "pydantic",
+    "python-dotenv",
+    "requests",
+    "streamlit",
+    "altair<6",
+    "gitpython",
+    "tenacity",
+    "toml",
+    "pydeck",
+    "flask",
+    "flask-cors",
+    "pandas",
+    "pytest",
+    "gunicorn"
+  ],
+  "circuit_types_count": 5,
+  "submission_ready": true
+}

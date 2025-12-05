@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-12-05T21:12:33.472676",
+  "critical_checks": [
+    {
+      "item": "GitHub repository is public",
+      "verified": false,
+      "url": "TODO: Add your GitHub repo URL"
+    },
+    {
+      "item": "README.md is complete and formatted",
+      "verified": false,
+      "file": "README.md"
+    },
+    {
+      "item": "Demo video is uploaded and accessible",
+      "verified": false,
+      "url": "TODO: Add video URL (YouTube/Vimeo)"
+    },
+    {
+      "item": "Live demo is deployed and accessible",
+      "verified": false,
+      "url": "TODO: Add production URL"
+    },
+    {
+      "item": "requirements.txt includes all dependencies",
+      "verified": false,
+      "file": "requirements.txt"
+    },
+    {
+      "item": "Environment variables are documented",
+      "verified": false,
+      "file": ".env.example"
+    },
+    {
+      "item": "All links in README are clickable and working",
+      "verified": false,
+      "command": "python scripts/verify_links.py"
+    },
+    {
+      "item": "Presentation slides are finalized",
+      "verified": false,
+      "file": "TODO: Add slides filename"
+    },
+    {
+      "item": "License file exists",
+      "verified": false,
+      "file": "LICENSE"
+    }
+  ],
+  "submission_fields": {
+    "project_name": "AutoCDA - AI Circuit Design Assistant",
+    "tagline": "Convert natural language to electronic schematics instantly",
+    "description": "TODO: 200-word description for submission form",
+    "tech_stack": [
+      "Python",
+      "Flask",
+      "OpenRouter API",
+      "SKiDL",
+      "KiCad",
+      "Streamlit"
+    ],
+    "category": "TODO: Primary category",
+    "demo_url": "TODO: Live demo URL",
+    "video_url": "TODO: Demo video URL",
+    "repo_url": "TODO: GitHub repository URL",
+    "slides_url": "TODO: Presentation slides URL"
+  }
+}
