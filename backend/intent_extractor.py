@@ -8,6 +8,10 @@ from typing import Dict, Optional
 class IntentExtractor:
     def __init__(self):
         self.api_key = os.environ.get("OPENROUTER_API_KEY")
+        if not self.api_key:
+            print("WARNING: OPENROUTER_API_KEY not found in environment!")
+        else:
+            print(f"API Key loaded: {self.api_key[:20]}...")
         self.max_retries = 3
         self.retry_delay = 2  # seconds
         self.api_url = "https://openrouter.ai/api/v1/chat/completions"
@@ -37,6 +41,7 @@ class IntentExtractor:
                 )
                 
                 if response.status_code != 200:
+                    print(f"API Error: Status {response.status_code}, Response: {response.text}")
                     if attempt < self.max_retries - 1:
                         time.sleep(self.retry_delay)
                     continue
