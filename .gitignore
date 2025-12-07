@@ -21,7 +21,11 @@ output_standalone/
 output_api/
 output_test/
 *.net
-*.kicad_*
+*.kicad_pro
+*.kicad_pcb
+*.kicad_sch
+# Allow kicad_sym library files
+!kicad_libs/**/*.kicad_sym
 
 # IDEs
 .vscode/
