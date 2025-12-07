@@ -1,0 +1,13 @@
+.shuffle-container {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.shuffle-char {
+  display: inline-block;
+  transition: transform 0.1s ease;
+}
+
+.shuffle-char:hover {
+  transform: scale(1.1);
+}

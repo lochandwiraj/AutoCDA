@@ -225,9 +225,13 @@ def health_check():
 
 
 # Day 16: Competitive Positioning & Storytelling Routes
-from backend.competitive_analysis import get_competitive_comparison, get_elevator_pitch
-from backend.demo_script import get_demo_script
-from backend.qa_responses import get_all_qa_pairs, search_qa
+try:
+    from competitive_analysis import get_competitive_comparison, get_elevator_pitch
+    from demo_script import get_demo_script
+    from qa_responses import get_all_qa_pairs, search_qa
+except ImportError:
+    # Optional modules - skip if not available
+    pass
 
 
 @app.route('/api/competitive-analysis', methods=['GET'])
