@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "buildCommand": "cd client && npm install && npm run build",
+  "outputDirectory": "client/dist",
   "builds": [
     {
       "src": "client/package.json",
@@ -18,5 +20,8 @@
       "src": "/(.*)",
       "dest": "client/dist/index.html"
     }
-  ]
+  ],
+  "env": {
+    "VITE_API_URL": "https://autocda-3.onrender.com"
+  }
 }
