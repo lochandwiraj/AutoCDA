@@ -1,3 +1,3 @@
 @echo off
-set OPENROUTER_API_KEY=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
+set OPENROUTER_API_KEY=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
 python backend/api.py
