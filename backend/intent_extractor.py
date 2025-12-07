@@ -7,14 +7,14 @@ from typing import Dict, Optional
 
 class IntentExtractor:
     def __init__(self):
-        self.api_key = os.environ.get("OPENROUTER_API_KEY")
+        self.api_key = os.environ.get("OPENAI_API_KEY")
         if not self.api_key:
-            print("WARNING: OPENROUTER_API_KEY not found in environment!")
+            print("WARNING: OPENAI_API_KEY not found in environment!")
         else:
             print(f"API Key loaded: {self.api_key[:20]}...")
         self.max_retries = 3
         self.retry_delay = 2  # seconds
-        self.api_url = "https://openrouter.ai/api/v1/chat/completions"
+        self.api_url = "https://api.openai.com/v1/chat/completions"
         
     def extract_circuit_intent(self, user_input: str) -> Optional[Dict]:
         """
@@ -32,7 +32,7 @@ class IntentExtractor:
                         "Content-Type": "application/json"
                     },
                     json={
-                        "model": "openai/gpt-4o-mini",
+                        "model": "gpt-4o-mini",
                         "messages": [
                             {"role": "user", "content": prompt}
                         ],
@@ -173,8 +173,8 @@ def test_intent_extractor():
 
 if __name__ == "__main__":
     # Check for API key
-    if not os.environ.get("OPENROUTER_API_KEY"):
-        print("ERROR: OPENROUTER_API_KEY environment variable not set")
-        print("Set it with: set OPENROUTER_API_KEY=your-key-here")
+    if not os.environ.get("OPENAI_API_KEY"):
+        print("ERROR: OPENAI_API_KEY environment variable not set")
+        print("Set it with: set OPENAI_API_KEY=your-key-here")
     else:
         test_intent_extractor()

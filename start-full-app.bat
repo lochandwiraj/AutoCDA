@@ -4,8 +4,8 @@ echo Starting AutoCDA Full Application
 echo ========================================
 echo.
 
-REM Set API Key
-set OPENROUTER_API_KEY=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
+REM Set API Key - Replace with your OpenAI API key
+set OPENAI_API_KEY=your-openai-api-key-here
 
 echo Starting Backend API on port 5000...
 start "AutoCDA Backend" cmd /k "set OPENROUTER_API_KEY=%OPENROUTER_API_KEY% && python backend/api.py"

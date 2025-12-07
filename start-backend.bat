@@ -1,3 +1,4 @@
 @echo off
-set OPENROUTER_API_KEY=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
+REM Replace with your OpenAI API key
+set OPENAI_API_KEY=your-openai-api-key-here
 python backend/api.py
