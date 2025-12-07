@@ -8,13 +8,15 @@ import traceback
 import zipfile
 from dotenv import load_dotenv
 
+# Setup KiCad environment FIRST (before any SKiDL imports)
+sys.path.append(os.path.dirname(__file__))
+from setup_kicad_env import setup_kicad_paths
+setup_kicad_paths()
+
 # Load environment variables from .env file in parent directory
 # override=True ensures .env values take precedence over system env vars
 env_path = os.path.join(os.path.dirname(__file__), '..', '.env')
 load_dotenv(dotenv_path=env_path, override=True)
-
-# Add backend to path
-sys.path.append(os.path.dirname(__file__))
 
 from intent_extractor import IntentExtractor
 from dsl_generator import generate_dsl_from_json
