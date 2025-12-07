@@ -28,6 +28,18 @@ from error_handler import InputValidationError, NLPError, GenerationError, Valid
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def home():
+    return jsonify({
+        'message': 'AutoCDA API',
+        'status': 'running',
+        'endpoints': {
+            'health': '/health',
+            'generate': '/generate (POST)',
+            'download': '/download/<folder>/<filename>'
+        }
+    })
+
 # Use absolute path for output directory (parent directory of backend)
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'output_api')
 OUTPUT_DIR = os.path.abspath(OUTPUT_DIR)
