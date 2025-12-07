@@ -4,10 +4,8 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "gunicorn wsgi:app --workers 2 --threads 4 --timeout 120 --bind 0.0.0.0:$PORT",
-    "healthcheckPath": "/health",
-    "healthcheckTimeout": 100,
+    "startCommand": "gunicorn -w 4 -b 0.0.0.0:$PORT backend.api:app",
     "restartPolicyType": "ON_FAILURE",
-    "restartPolicyMaxRetries": 3
+    "restartPolicyMaxRetries": 10
   }
 }

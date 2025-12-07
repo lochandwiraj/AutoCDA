@@ -1,0 +1,64 @@
+# Exclude large unnecessary files from Vercel deployment
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.Python
+
+# Output directories (generated files)
+output/
+output_api/
+output_test/
+output_standalone/
+logs/
+
+# Test files
+tests/
+test_*.py
+*_test.py
+run_all_tests.py
+
+# Demo and script files
+demo_*.py
+scripts/
+bonus_*.py
+generate_*.py
+prepare_*.py
+final-check.py
+qa_*.py
+
+# Documentation
+*.md
+!README.md
+DEPLOYMENT.md
+VERCEL_*.md
+SELF_HOSTING_GUIDE.md
+
+# Deployment scripts
+deploy*.sh
+deploy*.bat
+*.bat
+*.sh
+
+# Frontend source (only need built version)
+frontend/
+frontend-react/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.net
+*.kicad_*
+*.erc
+demo_files/
