@@ -3,6 +3,6 @@
   "outputDirectory": "client/dist",
   "framework": "vite",
   "env": {
-    "VITE_API_URL": "https://autocda-3.onrender.com"
+    "VITE_API_URL": "https://autocda-4.onrender.com"
   }
 }
