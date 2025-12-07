@@ -5,7 +5,7 @@ echo ========================================
 echo.
 
 REM Set API Key
-set OPENROUTER_API_KEY=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
+set OPENROUTER_API_KEY=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
 
 echo Starting Backend API on port 5000...
 start "AutoCDA Backend" cmd /k "set OPENROUTER_API_KEY=%OPENROUTER_API_KEY% && python backend/api.py"
